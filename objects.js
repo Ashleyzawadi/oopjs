@@ -1,13 +1,12 @@
 var userOne = {
-    email: 'ryu@ninjas.com',
-    name: 'Ryu',
+    email: 'adler@sherlock.com',
+    name: 'adler',
     login(){
-        console.log(this.email, 'has logged in');
+        console.log(this.email, 'has logged in')
     },
     logout(){
-        console.log(this.email, 'has logged out');
+        console.log(this.email, 'has logged out')
     }
 };
 
-userOne.login();
-userOne.logout();
+console.log(userOne.name)
