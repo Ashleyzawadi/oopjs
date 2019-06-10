@@ -1,39 +1,39 @@
-// 1. What is an object?
-// objects are containers that encapsulate data
-// Object is a thing with methods and properties attached to it
-// 2. Why are objects useful?
-// allows you to create containers that carry several properties and values unlike variables that can only hold one value
+1. What is an object?
+objects are containers that encapsulate data
+Object is a thing with methods and properties attached to it
+2. Why are objects useful?
+allows you to create containers that carry several properties and values unlike variables that can only hold one value
 
-// 3. How do you create an object?
-//    Literal notation 
-    // var nameOfObject = {
-    //     property:value
-    // }
-// var userOne = {
-//     email: 'adler@sherlock.com',
-//     name: 'adler',
-//     login(){
-//         console.log(this.email, 'has logged in')
-//     },
-//     logout(){
-//         console.log(this.email, 'has logged out')
-//     }
-// };
-// console.log(userOne.name)
+3. How do you create an object?
+   Literal notation 
+    var nameOfObject = {
+        property:value
+    }
+var userOne = {
+    email: 'adler@sherlock.com',
+    name: 'adler',
+    login(){
+        console.log(this.email, 'has logged in')
+    },
+    logout(){
+        console.log(this.email, 'has logged out')
+    }
+};
+console.log(userOne.name)
 
-// 4. Accessing  methods and properties
-// Dot Notation
-// userOne.email
-// userOne.login()
-// Bracket Notation 
-// userOne['name']
-// userOne['speak']()
+4. Accessing  methods and properties
+Dot Notation
+userOne.email
+userOne.login()
+Bracket Notation 
+userOne['name']
+userOne['speak']()
 
-// 5. What is the advantage of using bracket notation vs dot notation?
+5. What is the advantage of using bracket notation vs dot notation?
 
-// 6. Add/Update properties and methods to objects
-// userOne.name = 'adler'
-// userOne.logIn = function login(){}
+6. Add/Update properties and methods to objects
+userOne.name = 'adler'
+userOne.logIn = function login(){}
 
 // -------------------------------------------------------------------------------------------------------
 
