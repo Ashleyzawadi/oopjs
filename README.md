@@ -111,7 +111,6 @@ An object from which other objects inherit methods. prototypes re useful because
 
         }
 
-// --------------------------------------------------------------------------------------------------------------
 ### CLASSES
 ### Why do we need classes?
    automate the creation of instances
