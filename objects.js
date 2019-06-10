@@ -68,7 +68,7 @@
 // --------------------------------------------------------------------------------------------------------
 
 // 9.PROTOTYPES
-// What is a prototype? which other o
+// What is a prototype? 
 // an object from which other objects inherit methods. prototypes re useful because we dont have to create new functions for every object and we dont have to create new instances with these methods
     function User(email, name){
         this.email = email;
@@ -92,13 +92,13 @@
     }
 
 // //Prototype inheritance 
-// function Admin(...args){
+        function Admin(...args){
 
-// }
+        }
 
 // --------------------------------------------------------------------------------------------------------------
 // CLASSES
-// Why do we need classes
+// Why do we need classes?
 // automate the creation of instances
 // reusability of your code
 
@@ -138,10 +138,6 @@
 
 // extended classes calling objects
     admin.deleteUser(userTwo);
-
-
-
-
 
 
 var userOne = new User('adler@gmail.com', 'Adler')
