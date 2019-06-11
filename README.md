@@ -54,7 +54,7 @@
        25
        userOne.prop
        undefined
-
+Bracket notation also allows you to access properties with special characters while dot nation requires that properties be alphanumeric and either _ or $. You can read more [here](https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781) .
 #### 6. Add/Update properties and methods to objects
 
     userOne.name = 'adler'
