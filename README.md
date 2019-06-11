@@ -40,6 +40,20 @@
     userOne['speak']()
 
 #### 5. What is the advantage of using bracket notation vs dot notation?
+ Bracket notation allows you to access dynamic variables.
+
+       e.g userOne = {
+               name = 'irene',
+               age = '35'
+       }
+       var prop = 'name'
+       userOne [prop]
+       irene
+       prop = 'age'
+       userOne[prop]
+       25
+       userOne.prop
+       undefined
 
 #### 6. Add/Update properties and methods to objects
 
@@ -116,7 +130,7 @@ An object from which other objects inherit methods. prototypes re useful because
    automate the creation of instances
    reusability of your code
 
-###### example object 
+###### example class 
 
     class User{
         constructor(email,name){
