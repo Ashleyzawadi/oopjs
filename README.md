@@ -96,7 +96,7 @@ Using the new keyword
  ```
 ### PROTOTYPES
 #### 9.What is a prototype? 
-An object from which other objects inherit methods. prototypes re useful because we dont have to create new functions for every object and we dont have to create new instances with these methods
+An object from which other objects inherit methods. Prototypes are useful because we dont have to create new functions for every object and we dont have to create new instances with these methods
     
     function User(email, name){
         this.email = email;
@@ -127,7 +127,7 @@ An object from which other objects inherit methods. prototypes re useful because
 
 ### CLASSES
 ### Why do we need classes?
-   automate the creation of instances
+   Classes allow you to automate the creation of instances
    reusability of your code
 
 ###### example class 
